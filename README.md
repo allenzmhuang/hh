@@ -6,3 +6,5 @@ don't worry aubot it ,i am here with you
 
 
 ok i get it thank you alle !
+
+push change information to remote origin 
