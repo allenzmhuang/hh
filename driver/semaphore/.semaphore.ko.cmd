@@ -1,0 +1,1 @@
+cmd_/home/gec/exercise/driver/semaphore/semaphore.ko :=  ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/gec/exercise/driver/semaphore/semaphore.ko /home/gec/exercise/driver/semaphore/semaphore.o /home/gec/exercise/driver/semaphore/semaphore.mod.o ;  true

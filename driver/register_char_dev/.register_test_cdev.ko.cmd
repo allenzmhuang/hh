@@ -1,0 +1,1 @@
+cmd_/home/gec/exercise/driver/register_char_dev/register_test_cdev.ko :=  ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/gec/exercise/driver/register_char_dev/register_test_cdev.ko /home/gec/exercise/driver/register_char_dev/register_test_cdev.o /home/gec/exercise/driver/register_char_dev/register_test_cdev.mod.o ;  true

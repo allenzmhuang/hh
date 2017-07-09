@@ -1,0 +1,1 @@
+cmd_/home/gec/exercise/driver/auto_create_cdev/auto_create_cdev.ko :=  ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/gec/exercise/driver/auto_create_cdev/auto_create_cdev.ko /home/gec/exercise/driver/auto_create_cdev/auto_create_cdev.o /home/gec/exercise/driver/auto_create_cdev/auto_create_cdev.mod.o ;  true

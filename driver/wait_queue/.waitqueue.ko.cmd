@@ -1,0 +1,1 @@
+cmd_/home/gec/exercise/driver/wait_queue/waitqueue.ko :=  ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/gec/exercise/driver/wait_queue/waitqueue.ko /home/gec/exercise/driver/wait_queue/waitqueue.o /home/gec/exercise/driver/wait_queue/waitqueue.mod.o ;  true
