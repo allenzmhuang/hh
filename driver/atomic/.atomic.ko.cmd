@@ -1,0 +1,1 @@
+cmd_/home/gec/exercise/driver/atomic/atomic.ko :=  ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/gec/exercise/driver/atomic/atomic.ko /home/gec/exercise/driver/atomic/atomic.o /home/gec/exercise/driver/atomic/atomic.mod.o ;  true

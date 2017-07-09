@@ -1,0 +1,1 @@
+cmd_/home/gec/exercise/driver/modules_format/modules_programing_format.ko :=  ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/gec/exercise/driver/modules_format/modules_programing_format.ko /home/gec/exercise/driver/modules_format/modules_programing_format.o /home/gec/exercise/driver/modules_format/modules_programing_format.mod.o ;  true

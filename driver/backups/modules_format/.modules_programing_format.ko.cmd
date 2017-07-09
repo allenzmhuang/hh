@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/kernel/modules_drv/modules_format/modules_programing_format.ko :=  ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /mnt/hgfs/kernel/modules_drv/modules_format/modules_programing_format.ko /mnt/hgfs/kernel/modules_drv/modules_format/modules_programing_format.o /mnt/hgfs/kernel/modules_drv/modules_format/modules_programing_format.mod.o ;  true
